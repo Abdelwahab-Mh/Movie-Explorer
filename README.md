@@ -8,7 +8,7 @@ Movie Explorer allows users to explore trending content, search for movies and T
 
 ## 🌐 Live Demo
 
-**[Explore Movie Explorer](YOUR_LIVE_DEMO_LINK)**
+**[Explore Movie Explorer](https://abdelwahab-mh.github.io/Movie-Explorer/)**
 
 ---
 
