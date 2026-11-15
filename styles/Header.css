@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Tahoma , Arial;
+    background-color: black;
+    
+}
+.container {
+    height: 95vh;
+    padding: 25px;
+    max-width: 1700px;
+    margin: 0 auto;
+    /* max-width: 950px; */
+    /* margin-top: 50px; */
+    /* background-color: red; */
+}
+/*================================= the Header design =================================*/
+.container .Header {
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: green; */
+}
+.container .Header .logo-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 12px;
+    /* background-color: red; */
+}
+.container .Header .logo-container .logo{
+    font-size: 35px;
+    margin-right: 140px;
+    color: white;
+    cursor: pointer;
+    /* background-color: blue; */
+}
+.container .Header .logo-container .logo a{
+    color: white;
+    text-decoration: none;
+}
+.container .Header .logo-container .logo a > span{
+    color: blueviolet;
+    margin-right: 10px;
+    
+}
+.container .Header .sections{
+    gap: 100px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type:none;
+    margin-right: 15px;
+    /* background-color: yellow; */
+}
+.container .Header .sections li{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.container .Header .sections li a{
+    color: white;
+    text-decoration: none;
+}
+.container .Header .sections li:hover{
+    text-decoration: underline 4px solid blueviolet;
+    text-underline-offset: 15px;
+}
+.container .Header .registration button{
+    padding: 4px 6px;
+    font-size: 17px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border: 0px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+/* .container .Header .registration .sign-up:hover,
+.container .Header .registration .login:hover, */
+.container .Header .registration .mode:hover {
+    background:
+        linear-gradient(#202020, #202020) padding-box,
+        linear-gradient(to right, cyan, blueviolet) border-box;
+}
+/* .container .Header .registration .sign-up:active,
+.container .Header .registration .login:active, */
+.container .Header .registration .mode:active {
+    background:
+        linear-gradient(#303030, #303030) padding-box,
+        linear-gradient(to right, deeppink, blueviolet) border-box;
+}
+/* .container .Header .registration .login{
+    margin-right: 30px;
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+.container .Header .registration .sign-up{
+    margin-right: 30px;
+    background-color: transparent;
+} */
+.container .Header .registration .mode{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    /* margin-right: 30px; */
+    background-color: transparent;
+}
+.container .Header .logo-container .navbar .menuBtn {
+    display: none;
+}
